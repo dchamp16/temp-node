@@ -1,10 +1,9 @@
 {
   "name": "tutorial",
   "version": "1.0.0",
-  "description": "",
   "main": "1-intro.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js"
   },
   "keywords": [],
   "author": "",
@@ -12,5 +11,17 @@
   "dependencies": {
     "bootstrap": "^5.1.0",
     "lodash": "^4.17.21"
-  }
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dchamp16/temp-node.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dchamp16/temp-node/issues"
+  },
+  "homepage": "https://github.com/dchamp16/temp-node#readme",
+  "description": ""
 }
